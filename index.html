@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <title>Sign up now</title>
+  </head>
+  <body>
+    <section class="intro">
+      <h2 class="intro__header">Learn to code by watching others</h2>
+      <p class="intro__body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis
+        distinctio repellendus maiores amet quod reprehenderit ea, ex quae enim,
+        est unde, tenetur pariatur.
+      </p>
+    </section>
+
+    <div class="signup">
+      <p class="signup__header">
+        Try it free 7 days <span>then $20/mo. thereafter</span>
+      </p>
+      <form id="form" action="#" method="post">
+        <ul>
+          <li>
+            <label for="first-name"></label>
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="First Name"
+            />
+            <img class="icon" src="./img/icon-error.svg" alt="error-icon" />
+            <div class="error"></div>
+          </li>
+          <li>
+            <label for="last-name"></label>
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Last Name"
+            />
+            <img class="icon" src="./img/icon-error.svg" alt="error-icon" />
+            <div class="error"></div>
+          </li>
+          <li>
+            <label for="email"></label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+            />
+            <img class="icon" src="./img/icon-error.svg" alt="error-icon" />
+            <div class="error"></div>
+          </li>
+          <li>
+            <label for="password"></label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+            />
+            <img class="icon" src="./img/icon-error.svg" alt="error-icon" />
+            <div class="error"></div>
+          </li>
+        </ul>
+        <button id="bttn" class="bttn-secondary" type="submit">
+          claim your free trial
+        </button>
+
+        <div class="signup__footer">
+          <p>
+            By clicking the button, you are agreeing to our
+            <a href="#">Terms and Services</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
